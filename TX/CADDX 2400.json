@@ -1,0 +1,30 @@
+{
+    "serial_rx": 43,
+    "serial_tx": 44,
+
+    "radio_miso": 15,
+    "radio_mosi": 16,
+    "radio_sck": 7,
+
+    "radio_busy": 4,
+    "radio_dio1": 5,
+    "radio_rst": 6,
+    "radio_nss": 17,
+    "power_rxen": 37,
+    "power_txen": 36,
+
+    "power_min": 0,
+    "power_high": 3,
+    "power_max": 3,
+    "power_default": 3,
+    "power_control": 0,
+    "power_values": [-13,-8,-5,0],
+
+    "use_backpack": true,
+    "debug_backpack_baud": 460800,
+    "debug_backpack_rx": 13,
+    "debug_backpack_tx": 14,
+    "backpack_boot": 21,
+    "backpack_en": 38
+    
+}

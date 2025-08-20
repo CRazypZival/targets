@@ -3427,5 +3427,20 @@
                 "prior_target_name": "DIY_2400_RX_ESP8285_SX1280"
             }
         }
+    },
+    "CADDX":{
+        "name": "CADDX",
+        "tx_2400":{
+            "RC":{
+                "product_name": "CADDX 2.4GHz TX",
+                "lua_name": "CADDX 2400 TX",
+                "layout_file": "CADDX 2400.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_TX",
+                "prior_target_name": "CADDX_2400_TX"
+            }
+        }
     }
 }
