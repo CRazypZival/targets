@@ -3436,10 +3436,29 @@
                 "lua_name": "CADDX 2400 TX",
                 "layout_file": "CADDX 2400.json",
                 "upload_methods": ["uart", "wifi"],
-                "min_version": "3.0.0",
+                "min_version": "3.4.0",
                 "platform": "esp32-s3",
-                "firmware": "Unified_ESP32S3_2400_TX",
-                "prior_target_name": "CADDX_2400_TX"
+                "firmware": "Unified_ESP32S3_2400_TX"
+            },
+            "ESP8285 module":{
+                "product_name": "CADDX 2.4GHz TX ESP8285 module",
+                "lua_name": "CADDX ESP8285 2400 TX",
+                "layout_file": "CADDX 2400 ESP8285.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_2400_TX"
+            }
+        },
+        "tx_dual":{
+            "ESP32S3 LR1121":{
+                "product_name": "ESP32S3 LR1121 TX",
+                "lua_name": "ESP32S3 LR1121 TX",
+                "layout_file": "S3 LR1121.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_LR1121_TX"
             }
         }
     }

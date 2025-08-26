@@ -20,7 +20,7 @@
     "power_control": 0,
     "power_values": [-13,-8,-5,0],
 
-    "use_backpack": true,
+    "use_backpack": false,
     "debug_backpack_baud": 460800,
     "debug_backpack_rx": 13,
     "debug_backpack_tx": 14,
