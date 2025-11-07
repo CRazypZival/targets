@@ -4071,6 +4071,17 @@
                 "firmware": "Unified_ESP8285_2400_TX"
             }
         },
+        "rx_2400":{
+            "Alink RX for test":{
+                "product_name": "CADDX Alink RX Module",
+                "lua_name": "CADDX Alink RX Module",
+                "layout_file": "CADDX 2400.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_RX"
+            }
+        },
         "tx_dual":{
             "ESP32S3 LR1121":{
                 "product_name": "ESP32S3 LR1121 TX",
