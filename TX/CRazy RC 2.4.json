@@ -1,0 +1,39 @@
+{
+    "serial_rx": 44,
+    "serial_tx": 43,
+
+    "radio_miso": 42,
+    "radio_mosi": 41,
+    "radio_sck": 40,
+
+    "radio_busy": 36,
+    "radio_dio1": 37,
+    "radio_rst": 35,
+    "radio_nss": 39,
+
+    "power_rxen": 38,
+    "power_txen": 45,
+
+    "screen_sck":12,
+    "screen_sda":11,
+    "screen_type": 1,
+    "screen_reversed": 0,
+
+    "joystick": 4,
+    "joystick_values": [2839,2191,1616,3511,0,4095],
+
+    "led_rgb": 48,
+    "led_rgb_isgrb": true,
+    "ledidx_rgb_status": [0],
+    "ledidx_rgb_boot": [0],
+
+    "power_min": 0,
+    "power_high": 3,
+    "power_max": 3,
+    "power_default": 3,
+    "power_control": 0,
+    "power_values": [-13,-8,-5,0],
+
+    "use_backpack": false
+
+}
