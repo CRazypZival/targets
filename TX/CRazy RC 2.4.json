@@ -19,8 +19,8 @@
     "screen_type": 1,
     "screen_reversed": 0,
 
-    "joystick": 4,
-    "joystick_values": [2839,2191,1616,3511,0,4095],
+    "joystick": 10,
+    "joystick_values": [2685,1197,3349,1959,4000,4095],
 
     "led_rgb": 48,
     "led_rgb_isgrb": true,
