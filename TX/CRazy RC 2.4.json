@@ -2,17 +2,17 @@
     "serial_rx": 44,
     "serial_tx": 43,
 
-    "radio_miso": 42,
-    "radio_mosi": 41,
-    "radio_sck": 40,
+    "radio_miso": 36,
+    "radio_mosi": 37,
+    "radio_sck": 39,
 
-    "radio_busy": 36,
-    "radio_dio1": 37,
-    "radio_rst": 35,
-    "radio_nss": 39,
+    "radio_busy": 40,
+    "radio_dio1": 38,
+    "radio_rst": 42,
+    "radio_nss": 41,
 
-    "power_rxen": 38,
-    "power_txen": 45,
+    "power_rxen": 1,
+    "power_txen": 2,
 
     "screen_sck":12,
     "screen_sda":11,
