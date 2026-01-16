@@ -4048,5 +4048,18 @@
                 "prior_target_name": "DIY_2400_RX_ESP8285_SX1280"
             }
         }
+    },
+    "CR":{
+        "rx_2400":{
+            "XJG 8285 PWM7":{
+                "product_name": "XJG 8285 PWM7",
+                "lua_name": "8285 PWM7",
+                "layout_file": "XJG 8285 PWM7.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.0.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_2400_RX"
+            }
+        }
     }
 }
