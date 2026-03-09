@@ -4069,6 +4069,15 @@
                 "min_version": "3.4.0",
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_2400_TX"
+            },
+            "C3 2400 TX for test": {
+                "product_name": "CADDX C3 2400 RX",
+                "lua_name": "CADDX C3 2400 RX",
+                "layout_file": "CADDX C3 PA.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.5.0",
+                "platform": "esp32-c3",
+                "firmware": "Unified_ESP32C3_2400_TX"
             }
         },
         "rx_2400":{
@@ -4087,6 +4096,24 @@
                 "layout_file": "Generic 2400.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.0.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_2400_RX"
+            },
+            "C3 2400 RX":{
+                "product_name": "CADDX C3 2400 RX",
+                "lua_name": "CADDX C3 2400 RX",
+                "layout_file": "CADDX C3 PA.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32-c3",
+                "firmware": "Unified_ESP32C3_2400_RX"
+            },
+            "1s AIO":{
+                "product_name": "CADDX 1s AIO",
+                "lua_name": "CADDX 1s AIO",
+                "layout_file": "Generic 2400.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_2400_RX"
             }
